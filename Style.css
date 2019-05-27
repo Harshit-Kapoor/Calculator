@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+#container{
+    width: 1000px;
+    height: 540px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(sky.jpg);
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+#calculator{
+    width: 280px;
+    height: 500px;
+    background-color: aqua;
+    margin: 0 auto;
+    top: 18px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0px 3px 9px rgba(2,11,41,0.36), 0 6px 9px 13px rgba(0,0,0,0.19);
+} 
+
+#result{
+    height: 120px; 
+}
+
+#keyboard{
+    height: 400px;
+}
+
+#history{
+    text-align: left;
+    height: 20px;
+    margin: 0px 90px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold; 
+    font-family: 'Lucida Sans';
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    font-size: 30px;
+    margin: 10px 17px;
+}
+
+.operator, .number, .empty{
+    width: 40px;
+    height: 45px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width:0px;
+    font-weight: bold;
+    font-size: 15px;    
+}
+
+.number, .empty{
+    background-color: aqua;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.number:focus, .operator:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 18px;
+    background-color: blue;
+}
+
+button:nth-child(8){
+    font-size: 18px;
+    background-color: yellow;
+}
+
+button:nth-child(12){
+    font-size: 18px;
+    background-color: red;
+}
+
+button:nth-child(16){
+    font-size: 18px;
+    background-color: deeppink;
+}
+
+button:nth-child(20){
+    font-size: 18px;
+    background-color: cornsilk;
+}
